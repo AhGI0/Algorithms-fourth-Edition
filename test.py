@@ -1,5 +1,4 @@
-import random as A
-names = ["Ahmed","Nada","sara","Omar"]
-B =A.randint(0,len(names)-1)
+# for |  range (start,stop,step)
 
-print(names[B])
+for I in range(10,15,2):
+    print(I)
