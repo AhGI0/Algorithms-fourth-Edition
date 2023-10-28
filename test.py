@@ -1,4 +1,5 @@
-# for |  range (start,stop,step)
-
-for I in range(10,15,2):
-    print(I)
+mysum = 0
+for i in range(5, 11, 2):
+    mysum += i  # 
+    print(i)
+print(mysum)
