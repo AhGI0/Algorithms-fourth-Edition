@@ -1,3 +1,4 @@
-s = "abcdefgh" 
+A ="Nhmed"
 
-print(s[::-1])
+B = "A"+ A[1::]
+print(B)
