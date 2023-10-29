@@ -1,7 +1,10 @@
-def check(str):
-    if str == "Nada":
-        return("it's okay")
+an_letters = "aefhilmnorsxAEFHILMNORSX"
+word = input("I will cheer for you! Enter a word: ")
+times = int(input("Enthusiasm level (1-10): ")) 
+
+for char in word:
+    if char in an_letters:
+        print(f'give me {char}')
     else:
-        the_diff =str[0]
-        return(f'the word will be N{str[1::]} the wrong letter is {the_diff}')
-print(check("Hada"))
+        print(f"give me {char}")
+
