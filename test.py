@@ -7,9 +7,9 @@ high =cube
 guess = (low + high) / 2
 num_guesses =0
 
-
-while abs((guess ** 3 - cube)) >= epison:
-    if guess **3 < cube:
+# you can play any root [square root , cube root]
+while abs((guess ** 2 - cube)) >= epison:
+    if guess **2 < cube:
         low = guess
     else:
         high =guess
