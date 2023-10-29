@@ -1,10 +1,18 @@
-an_letters = "aefhilmnorsxAEFHILMNORSX"
-word = input("I will cheer for you! Enter a word: ")
-times = int(input("Enthusiasm level (1-10): ")) 
+# binary search 
 
-for char in word:
-    if char in an_letters:
-        print(f'give me {char}')
-    else:
-        print(f"give me {char}")
+def search(arr,item):
+    low =0
+    high = len(arr)-1
+    while low <= high:
+        mid =low + high
+        guess = arr[mid]
+        if guess == item:
+            return mid
+        elif guess <item:
+            low = mid +1
+        else:
+            high = mid + 1
+    return None
 
+
+print(search([1,1,5,7,8,9,10],10))
