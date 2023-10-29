@@ -2,14 +2,14 @@
 
 
 low= 0
-cube = 125 
+cube = 18 
 high = cube
 value = (high + low) / 2
 epsion = .01
 num_guesses = 0
 
-while abs(value ** 3 - cube) >= epsion:
-    if value **3 < cube:
+while abs(value ** 2 - cube) >= epsion:
+    if value **2 < cube:
         low = value
     else:
         high = value
@@ -17,4 +17,4 @@ while abs(value ** 3 - cube) >= epsion:
     num_guesses += 1
 
 
-print(int(value))  #
+print((value))  #
