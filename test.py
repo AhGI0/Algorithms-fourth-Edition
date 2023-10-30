@@ -1,7 +1,3 @@
-# lecture 4
+let = "Ahmed"
 
-# structuring programs and hiding details
-# functions
-# specifications 
-# keywords :return :print
-# scopes
+print(let)
