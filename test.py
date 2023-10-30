@@ -1,3 +1,7 @@
-let = "Ahmed"
+A= {
+    "name":"Ahmed",
+    "age":"22",
+    "movies":"Alibaba" 
+}
 
-print(let)
+print(A["movies"])
