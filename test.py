@@ -1,6 +1,9 @@
-P = [1,2,3]
-P.extend([5,4])
+# how to make a specifications in loops 
 
-P.sort()
-
-print(P)
+def copy(one,two):
+    A= one[:]
+    for i in A:
+        if i in two:
+            one.remove(i)
+    return one
+print(copy([1,2,3,4,5],[4,5]))
