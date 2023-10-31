@@ -1,6 +1,12 @@
-def check(ex):
-    return (ex / 2)
+# you know the scope right! == yes i do 
 
-A= int(input("Enter a number: "))
+def A():
+    print("Inside A")
+def B():
+    print("Inside B")
 
-print(check(A))
+def All ():
+    A()
+    B()
+
+All()
