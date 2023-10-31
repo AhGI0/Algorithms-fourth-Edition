@@ -1,12 +1,5 @@
-# you know the scope right! == yes i do 
+def check(ex):
+    A =ex
+    return A /2
 
-def A():
-    print("Inside A")
-def B():
-    print("Inside B")
-
-def All ():
-    A()
-    B()
-
-All()
+print(check(10))
