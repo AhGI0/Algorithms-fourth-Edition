@@ -1,6 +1,6 @@
-L = [1,2,3,4,5,6,7,8]
+P = [1,2,3]
+P.extend([5,4])
 
-del(L[2])
+P.sort()
 
-print(L)
-
+print(P)
