@@ -1,6 +1,6 @@
-A= [1,2]
-B= A[:]
+def i(ex):
+    if ex == 0:
+        return 1
+    return ex * i(ex- 1)  #the aim of it find the factorial
 
-B.extend([4,5])
-
-print(A)
+print(i(4))
