@@ -1,11 +1,9 @@
-def g(x):
-    def h():
-        x ="abc"  # it's conestant
-        print(x) 
-    x = x+ 1
-    print(f'g:x = {x}')
-    h()
-    return x
-x= 3
-z= g(x)
+def sums(one,two):
+    add = one +two
+    times =one * two
+    return(add,times)
 
+(A,B)= sums(10,15) 
+
+print(A)
+print(B)
